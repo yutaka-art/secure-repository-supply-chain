@@ -36,7 +36,7 @@ jobs:
     if: |
       !github.event.repository.is_template
     name: Start Exercise
-    uses: skills/exercise-toolkit/.github/workflows/start-exercise.yml@v0.3.0
+    uses: skills/exercise-toolkit/.github/workflows/start-exercise.yml@v0.5.0
     with:
       exercise-title: "Secure your Repository's Supply Chain"
       intro-message: "リポジトリのサプライチェーンを保護する方法、環境内の依存関係を把握する方法、およびそれらの依存関係に存在する脆弱性を特定し修正する方法を学びましょう。 💻✨"
